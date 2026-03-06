@@ -16,12 +16,18 @@ INTO TABLE online_offline_sales.dim_country
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-LOAD DATA LOCAL INFILE 'C:/Users/anmol/Desktop/Omkar_Data Analytics/GitHub*/Onlineoffline sales data analysis/dim_state.csv'
+LOAD DATA LOCAL INFILE 
+'C:/Users/anmol/Desktop/Omkar_Data Analytics/GitHub*/Onlineoffline sales data analysis/dim_state.csv'
 INTO TABLE online_offline_sales.dim_state
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-LOAD DATA LOCAL INFILE 'C:/Users/anmol/Desktop/Omkar_Data Analytics/GitHub/Onlineoffline sales data analysis/dim_customer.csv'
+LOAD DATA LOCAL INFILE 
+'C:/Users/anmol/Desktop/Omkar_Data Analytics/GitHub/Onlineoffline sales data analysis/dim_customer.csv'
 INTO TABLE online_offline_sales.dim_customer
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n';
+'C:/Users/anmol/Desktop/Omkar_Data Analytics/GitHub/Onlineoffline sales data analysis/SQL Analysis Project  - Onlineoffline sales data analysis/CSV dataset/dim_date.csv'
+into table online_offline_sales.dim_date
+fields terminated by ','
+lines terminated by '\n';
